@@ -1,6 +1,6 @@
 #  Namespaces
 
-During the CKAD exam you will be required to work in namespaces for certain questions, so it helps to be familiar with working with namespaces.
+During the CKAD exam you will be required to work in namespaces for certain questions.
 
 To create a namespace, use `k create namespace` (abbreviated to `ns`). For example:
 
