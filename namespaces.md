@@ -1,4 +1,4 @@
-#  Namespaces
+# Namespaces
 
 During the CKAD exam you will be required to work in namespaces for certain questions.
 
@@ -16,6 +16,7 @@ k get ns
 ```
 
 Most commands accept a namespace to work on. For example:
+
 ```bash
 k get pods --namespace=ckad-study
 ```

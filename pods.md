@@ -1,4 +1,4 @@
-#  Pods
+# Pods
 
 A pod consists of one or more containers and is the simplest deployable unit in kubernetes.
 

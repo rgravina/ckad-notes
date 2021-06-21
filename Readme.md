@@ -11,7 +11,7 @@ This section is about namespaces and working with pods in simple configurations.
 * [Namespaces](namespaces.md)
 * [Pods](pods.md)
 
-# References
+## References
 
 [Official Documentation](https://kubernetes.io/docs/)
 

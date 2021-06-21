@@ -7,15 +7,18 @@ brew install minikube
 minikube start
 ```
 
-# Useful Shortcuts
+## Useful Shortcuts
 
 The CKAD exam is short, so remembering and setting up a few useful shortcuts is recommended.
 
 Create an alias for `kubectl` to make it easier to type.
+
 ```bash
 alias k=kubectl
 ```
+
 It is convenient to run commands in dry run mode and output the results in `yaml`. An environment variable can help.
+
 ```bash
 export DR="--dry-run=client -oyaml"
 ```
