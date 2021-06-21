@@ -1,9 +1,14 @@
-# CKAD Study Notes
+# Welcome!
 
-## Introduction
+These notes will help you prepare for the CKAD. For more information, see the [official website](https://www.cncf.io/certification/ckad/).
 
-In early 2021, I prepared to take the Certified Kubernetes Application Developer (CKAD) exam offered by The Linux Foundation. My previous experience with deployment platforms is mainly limited to Cloud Foundry, which I have used to `cf push` applications to production in Spring, Rails, Node and probably other frameworks too.
+* [Introduction](introduction.md)
 
-But Kubernetes is a little different. There are certainly similarities between what it does, and what Cloud Foundtry does, but the CLI and concepts are entirely different.
+## Core Concepts
 
-Hopefully these notes will help you in prepatation for the CKAD also. Good luck!
+This section is about namespaces and working with pods in simple configurations.
+
+* [Namespaces](namespaces.md)
+
+
+*The author can not guarantee the content is error free, up to date, or that you will pass the exam using this information. The content was prepared based on the freely available curriculum and official documentation and is intended to be used for educational purposes only.*
