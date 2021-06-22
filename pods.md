@@ -46,3 +46,30 @@ echo "Hello, World!"
 > Why is running `/bin/sh` necessary? What happens if you leave that out and instead run `k exec helloworld -it busybox`.
 >
 > Do you see "Hello, World!" in the logs? Why or why not?
+
+## Creating a pod from a yaml configuration
+
+You can create a pod from an image file. Let's use the `nginx` image so we don't need to keep specifying `--restart=Never` like we did with busybox.
+
+However, to illustrate using files, intentionally spell the image name wrong
+
+```bash
+k run nginx --image=ngin --dry-run=client -oyaml | tee nginx.yaml
+k apply -f nginx.yaml
+k describe pod nginx
+```
+
+The status should be `ImagePullBackOff`.
+
+```bash
+vi nginx.yaml # fix the image name and save
+k apply -f nginx.yaml
+```
+
+The status should be `Running`. Now you can delete the pod.
+
+```bash
+k delete pod nginx
+```
+
+> Try running `k run nginx --image=nginx -oyaml | tee nginx.yaml`. Does the `yaml` file look different from when `--dry-run` was used? Now delete the pod.

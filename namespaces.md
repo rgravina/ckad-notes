@@ -21,6 +21,12 @@ Most commands accept a namespace to work on. For example:
 k get pods --namespace=ckad-study
 ```
 
+Get commands also take a parameter for all namespaces.
+
+```bash
+k get pods --all-namespaces
+```
+
 ## Exercises
 
 Run each command below. Try to guess what will happen before you run each command.
