@@ -2,18 +2,19 @@
 
 These notes will help you prepare for the CKAD. For more information, see the [official website](https://www.cncf.io/certification/ckad/).
 
-* [Introduction](introduction.md)
+* [Introduction and Setup](introduction.md)
 
-## Core Concepts
+## Getting Started
 
-This section is about namespaces and working with pods in simple configurations.
+This section covers namespaces and working with pods in simple configurations.
 
 * [Namespaces](namespaces.md)
 * [Pods](pods.md)
 
-Next, how to configure your pods:
+Next, see how to configure your pods environment:
 
 * [Config Maps and Environment Variables](configuration.md)
+* [Secrets](secrets.md)
 
 ## References
 
