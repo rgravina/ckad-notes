@@ -11,6 +11,10 @@ This section is about namespaces and working with pods in simple configurations.
 * [Namespaces](namespaces.md)
 * [Pods](pods.md)
 
+Next, how to configure your pods:
+
+* [Config Maps and Environment Variables](configuration.md)
+
 ## References
 
 [Official Documentation](https://kubernetes.io/docs/)
