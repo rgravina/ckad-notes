@@ -36,5 +36,6 @@ k create ns ckad-study
 k get ns
 k get pods --namespace=ckad-study
 k get pods -n=ckad-study
+k get pods --all-namespaces
 k delete ns ckad-study
 ```
