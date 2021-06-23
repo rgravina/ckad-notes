@@ -11,10 +11,11 @@ This section covers namespaces and working with pods in simple configurations.
 * [Namespaces](namespaces.md)
 * [Pods](pods.md)
 
-Next, see how to configure your pods environment:
+Next, see how to configure your pods running environment:
 
 * [Config Maps and Environment Variables](configuration.md)
-* [Secrets](secrets.md)
+* [Storing Secrets](secrets.md)
+* [Running Security Contexts](security.md)
 
 ## References
 
