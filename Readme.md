@@ -16,6 +16,7 @@ Next, see how to configure your pods running environment:
 * [Config Maps and Environment Variables](configuration.md)
 * [Storing Secrets](secrets.md)
 * [Running Security Contexts](security.md)
+* [Resource Limits](resources.md)
 
 ## References
 
