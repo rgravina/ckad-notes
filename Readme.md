@@ -1,25 +1,51 @@
 # Welcome
 
-These notes will help you prepare for the CKAD. For more information, see the [official website](https://www.cncf.io/certification/ckad/).
+These notes will help you prepare for the Certified Kubernetes Application Developer (CKAD) certification. The certification broadly covers skills needed to develop applications that run on kubernetes. Administration is out of scope of this guide and the certification. For more information, see the [certification website](https://www.cncf.io/certification/ckad/).
 
 * [Introduction and Setup](introduction.md)
 
 ## Getting Started
 
-This section covers namespaces and working with pods in simple configurations.
+This section covers working with namespaces and pods in simple, single container configurations.
 
 * [Namespaces](namespaces.md)
 * [Pods](pods.md)
 
-Next, see how to configure your pods running environment:
+Now you have the basics covered, see how to configure the running environment, resources and user accounts for your pods.
 
 * [Config Maps and Environment Variables](configuration.md)
 * [Storing Secrets](secrets.md)
 * [Running Security Contexts](security.md)
 * [Resource Limits](resources.md)
+* [Service Accounts](serviceaccounts.md)
+
+Pods can be categorised and Kubernetes will assign them to nodes based on taints/tolerances or labels/selectors.
+
+* [Taints and Tolerances](nodes.md)
+* [Labels and Selectors](labels.md)
+
+Pods health can be monitors by liveness and readiness probes.
+
+* [Liveness and Readiness Probes](probes.md)
+
+Dealing with deployments.
+
+* [Rolling Updates and Rollbacks](updates.md)
+
+Scheduling tasks.
+
+* [Scheduling Jobs](jobs.md)
+
+Persistent volumes.
+
+* [Persistent Volumes](volumes.md)
+
+Services and networking.
+
+* [Services and Networking](networking.md)
 
 ## References
 
-[Official Documentation](https://kubernetes.io/docs/)
+[Kubernetes Documentation](https://kubernetes.io/docs/)
 
 *The author can not guarantee the content is error free, up to date, or that you will pass the exam using this information. The content was prepared based on the freely available curriculum and official documentation and is intended to be used for educational purposes only.*

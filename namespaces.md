@@ -1,6 +1,6 @@
 # Namespaces
 
-During the CKAD exam you will be required to work in namespaces for certain questions.
+During the CKAD exam you will be required to work in namespaces to keep answers to questions isolated from each other. In a real kubernetes cluster, namespaces are a useful feature too.
 
 To create a namespace, use `k create namespace` (abbreviated to `ns`). For example:
 
