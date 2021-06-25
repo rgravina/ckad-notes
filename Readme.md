@@ -28,6 +28,7 @@ Pod health can be monitored by liveness and readiness probes, and by inspecting 
 
 * [Liveness and Readiness Probes](probes.md)
 * [Logs](logs.md)
+* [Metrics](metrics.md)
 
 Dealing with deployments.
 
