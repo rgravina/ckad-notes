@@ -24,9 +24,10 @@ Pods can be categorised and Kubernetes will assign them to nodes based on taints
 * [Taints and Tolerances](nodes.md)
 * [Labels and Selectors](labels.md)
 
-Pods health can be monitors by liveness and readiness probes.
+Pod health can be monitored by liveness and readiness probes, and by inspecting logs.
 
 * [Liveness and Readiness Probes](probes.md)
+* [Logs](logs.md)
 
 Dealing with deployments.
 
