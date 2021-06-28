@@ -30,15 +30,15 @@ Pod health can be monitored by liveness and readiness probes, and by inspecting 
 * [Logs](logs.md)
 * [Metrics](metrics.md)
 
-Dealing with deployments.
+Kubernetes can handle zero downtime deployments and allows you to rollback deployments.
 
 * [Rolling Updates and Rollbacks](updates.md)
 
-Scheduling tasks.
+Schedule one off or repeating tasks with jobs.
 
 * [Scheduling Jobs](jobs.md)
 
-Persistent volumes.
+Store data on persistent volumes.
 
 * [Persistent Volumes](volumes.md)
 
@@ -48,6 +48,6 @@ Services and networking.
 
 ## References
 
-[Kubernetes Documentation](https://kubernetes.io/docs/)
+* The [Kubernetes Documentation](https://kubernetes.io/docs/) is the one of the few resources you can refer to during the exam. It's great for preparation too. There are some [interactive tutorials](https://kubernetes.io/docs/tutorials/) which may help with getting practice.
 
 *The author can not guarantee the content is error free, up to date, or that you will pass the exam using this information. The content was prepared based on the freely available curriculum and official documentation and is intended to be used for educational purposes only.*
