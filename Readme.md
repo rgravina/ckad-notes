@@ -19,7 +19,7 @@ Now you have the basics covered, see how to configure the running environment, r
 * [Storing Secrets](secrets.md)
 * [Running Security Contexts](security.md)
 * [Resource Limits](resources.md)
-* [Service Accounts](serviceaccounts.md)
+* [Service Accounts](service-accounts.md)
 
 Pods can be categorised and Kubernetes will assign them to nodes based on taints/tolerances or labels/selectors.
 
