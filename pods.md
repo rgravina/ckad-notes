@@ -47,6 +47,12 @@ echo "Hello, World!"
 >
 > Do you see "Hello, World!" in the logs? Why or why not?
 
+We can also run temporary containers to perform tasks, like requesting a url.
+
+```bash
+k run temp --rm -i --restart=Never --image=busybox -- wget -O- http://api.quotable.io/random
+```
+
 ## Creating a pod from a yaml configuration
 
 You can create a pod from an image file. Let's use the `nginx` image so we don't need to keep specifying `--restart=Never` like we did with busybox.
@@ -56,19 +62,9 @@ However, to illustrate using files, intentionally spell the image name wrong
 ```bash
 k run nginx --image=ngin --dry-run=client -oyaml | tee nginx.yaml
 k apply -f nginx.yaml
-k describe pod nginx
-```
-
-The status should be `ImagePullBackOff`.
-
-```bash
+k describe pod nginx # The status should be `ImagePullBackOff`
 vi nginx.yaml # fix the image name and save
-k apply -f nginx.yaml
-```
-
-The status should be `Running`. Now you can delete the pod.
-
-```bash
+k apply -f nginx.yaml # The status should be `Running`. Now you can delete the pod.
 k delete pod nginx
 ```
 

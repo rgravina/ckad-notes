@@ -2,18 +2,18 @@
 
 These notes will help you prepare for the Certified Kubernetes Application Developer (CKAD) certification. The certification broadly covers skills needed to develop applications that run on kubernetes. Administration is out of scope of this guide and the certification. For more information, see the [certification website](https://www.cncf.io/certification/ckad/).
 
-* Read the [introduction and setup](introduction.md) section so you can get a local development Kubernetes environment running that's good enough for practice purposes.
+* Read the [introduction and setup](introduction.md) section so you can get a local Kubernetes environment running.
 
-## Getting Started
+## Tutorial
 
 First, it helps to go over the main areas the certification covers in some detail before trying more difficult application questions.
 
 This first section covers working with namespaces and pods in simple, single container configurations.
 
-* [Namespaces](namespaces.md)
-* [Pods](pods.md)
+* [Working with Namespaces](namespaces.md)
+* [Creating and Using Pods](pods.md)
 
-Now you have the basics covered, see how to configure the running environment, resources and user accounts for your pods.
+Now you have the pod basics covered, see how to configure the running environment, resources and user accounts for your pods.
 
 * [Config Maps and Environment Variables](configuration.md)
 * [Storing Secrets](secrets.md)
