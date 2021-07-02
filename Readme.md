@@ -52,9 +52,15 @@ Services and networking.
 
 Try to get practice with questions that combine several topics and tasks to complete a goal, and troubleshooting questions. These resources may be helpful.
 
-* These free [CKAD Exercises](https://github.com/dgkanatsios/CKAD-exercises) arranged by exam topic
-* The [KodeKloud CKAD Course and Labs](https://beta.kodekloud.com/). Requires purchase of the course or associated Udemy course.
-* The free [Kube Academy CKAD Practice Course](https://kube.academy/courses/ckad-practice).
+## Free Resources
+
+* These [CKAD Exercises](https://github.com/dgkanatsios/CKAD-exercises) are arranged by exam topic and can be followed locally using `minikube`.
+* The [Kube Academy CKAD Practice Course](https://kube.academy/courses/ckad-practice) can be completed in the browser.
+
+## Paid
+
+* Since June 2021, the Linux Foundation has been offering two free [Killer.sh CKAD exam simulator](https://killer.sh/ckad) sessions with an exam booking. Alternative they can be purchased separately. These questions are similar to the harder questions on the exam and are excellent practice.
+* The [KodeKloud CKAD Course and Labs](https://beta.kodekloud.com/). Requires purchase of the KodeKloud course or the associated Udemy course.
 
 ## References
 
