@@ -16,15 +16,15 @@ This first section covers working with namespaces and pods in simple, single con
 Now you have the pod basics covered, see how to configure the running environment, resources and user accounts for your pods.
 
 * [Config Maps and Environment Variables](configuration.md)
-* [Storing Secrets](secrets.md)
+* [Storing and Using Secrets](secrets.md)
 * [Running Security Contexts](security.md)
-* [Resource Limits](resources.md)
+* [Setting Resource Limits](resources.md)
 * [Service Accounts](service-accounts.md)
 
-Pods can be categorised and Kubernetes will assign them to nodes based on taints/tolerances or labels/selectors.
+Pods can be categorised and Kubernetes will assign them to nodes based on taints/tolerations or labels/selectors.
 
-* [Taints and Tolerances](nodes.md)
-* [Labels and Selectors](labels.md)
+* [Using Taints and Tolerations to control where pods run](nodes.md)
+* [Usiung Labels and Selectors](labels.md)
 
 Pod health can be monitored by liveness and readiness probes, and by inspecting logs.
 
