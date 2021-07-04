@@ -6,7 +6,7 @@ These notes will help you prepare for the Certified Kubernetes Application Devel
 
 ## Tutorial
 
-First, it helps to go over the main areas the certification covers in some detail before trying more difficult application questions.
+First, it helps to go over the main areas the certification covers before trying questions that combine several topics. Some examples use the `k` alias and `$dr` environment variable shortcut. See the [introduction](introduction.md) for instructions on setting this up.
 
 This first section covers working with namespaces and pods in simple, single container configurations.
 
@@ -38,7 +38,7 @@ Kubernetes can handle zero downtime deployments and allows you to rollback deplo
 
 Schedule one off or repeating tasks with jobs.
 
-* [Scheduling Jobs](jobs.md)
+* [Running and Scheduling Jobs](jobs.md)
 
 Store data on persistent volumes.
 
