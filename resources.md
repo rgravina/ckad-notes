@@ -52,12 +52,13 @@ spec:
       containers:
       - image: busybox
         name: busybox
+        command: ["/bin/sh", "-c", "sleep infinity"] # without this, the deployment would think the pod crashed and keep restarting it
         resources: # add this section
           requests:
-            memory: "32Mi" # Just enough to run busybox
+            memory: "16Mi" # Enough to run busybox
             cpu: "100m" # This is 0.1 of a CPU
-          limits: # These are just double the requested amount, just in case
-            memory: "64Mi"
+          limits: # These are double the requested amount, just in case
+            memory: "32Mi"
             cpu: "200m"
 status: {}
 ```
